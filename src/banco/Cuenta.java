@@ -1,3 +1,5 @@
+package banco;
+
 public class Cuenta {
 
     private String titular;

@@ -1,3 +1,5 @@
+package ordenador;
+
 public class Ordenador implements Comparable<Ordenador>{
 
     private String name;

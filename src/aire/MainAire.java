@@ -1,3 +1,5 @@
+package aire;
+
 public class MainAire {
 
     public static void main(String[] args) {

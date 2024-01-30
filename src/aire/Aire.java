@@ -1,3 +1,5 @@
+package aire;
+
 public class Aire  {
 
     private String name;
