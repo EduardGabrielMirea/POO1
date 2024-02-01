@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d87942d-e9a5-407e-b845-6d641e4c2b22" name="Changes" comment="POO update">
-      <change afterPath="$PROJECT_DIR$/src/banco2/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/banco2/Domiciliacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/universidad/Adscrito.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/universidad/AreaConex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/universidad/Catedra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/universidad/Departamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/universidad/Facultad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/universidad/Profe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banco2/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco2/CuentaCorriente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banco2/MainBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco2/MainBanco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/banco2/Sucursal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco2/Sucursal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706607756340</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="POO update">
+      <option name="closed" value="true" />
+      <created>1706778032601</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706778032601</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
