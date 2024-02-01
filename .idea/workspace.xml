@@ -5,21 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d87942d-e9a5-407e-b845-6d641e4c2b22" name="Changes" comment="POO update">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/banco2/Banco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/banco2/CuentaCorriente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/banco2/MainBanco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/banco2/Prestec.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/banco2/Sucursal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banco2/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/banco2/Domiciliacion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aire/Aire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco/Cuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainAire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/aire/MainAire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainCuenta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco/MainCuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainOrdenadores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ordenador/MainOrdenadores.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainPerson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/person/MainPerson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ordenador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ordenador/Ordenador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/person/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/banco2/CuentaCorriente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco2/CuentaCorriente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/banco2/MainBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco2/MainBanco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/banco2/Sucursal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/banco2/Sucursal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,15 +36,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.MainBanco">
     <configuration name="MainAire" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aire.MainAire" />
@@ -131,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706603529959</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="POO update">
+      <option name="closed" value="true" />
+      <created>1706607756340</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706607756340</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

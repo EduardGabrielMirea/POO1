@@ -12,13 +12,16 @@ public class Sucursal {
     private Banco banco;
 
     private Set<Prestec> prestecs;
-    public Sucursal(String direccion, int nSuc,Banco banco) {
+
+    private Set<CuentaCorriente> cuentaCorrientes;
+
+    public Sucursal(String direccion, int nSuc,Banco banco, Set<CuentaCorriente> cuentaCorrientes, Set<Prestec> prestecs) {
         this.direccion = direccion;
         this.banco = banco;
         this.nSuc = nSuc;
         this.prestecs = new HashSet<>();
+        this.cuentaCorrientes = new HashSet<>();
     }
-
 
     public String getDireccion() {
         return direccion;
@@ -29,17 +32,29 @@ public class Sucursal {
     }
 
     //Hemos eliminado los setters del numero de sucursal para que no se pueda cambiar y tamb el de Banco porque no se puede cambiar de banco.
+
     public int getnSuc() {
         return nSuc;
     }
-
     public Banco getBanco() {
         return banco;
     }
 
 
+    public Set<CuentaCorriente> getCuentaCorrientes() {
+        return cuentaCorrientes;
+    }
+
+    public void setCuentaCorrientes(Set<CuentaCorriente> cuentaCorrientes) {
+        this.cuentaCorrientes = cuentaCorrientes;
+    }
+
+    //AADD.
     public void addPrestamo(Prestec prestec){
         this.prestecs.add(prestec);
+    }
+    public void addCuentaCorriente(CuentaCorriente cuentaCorriente){
+        this.cuentaCorrientes.add(cuentaCorriente);
     }
     @Override
     public String toString(){
