@@ -5,13 +5,11 @@ import java.util.Set;
 
 public class Facultad {
     private String nombreF;
-    private String direccionF;
     private Set<Catedra> catedras;
 
 
-    public Facultad(String nombreF, String direccionF, Set<Catedra> catedras) {
+    public Facultad(String nombreF) {
         this.nombreF = nombreF;
-        this.direccionF = direccionF;
         this.catedras = new HashSet<>();
     }
 
@@ -21,14 +19,6 @@ public class Facultad {
 
     public void setNombreF(String nombreF) {
         this.nombreF = nombreF;
-    }
-
-    public String getDireccionF() {
-        return direccionF;
-    }
-
-    public void setDireccionF(String direccionF) {
-        this.direccionF = direccionF;
     }
 
     public Set<Catedra> getCatedras() {
@@ -46,6 +36,6 @@ public class Facultad {
 
     @Override
     public String toString(){
-        return "La facultad "+this.nombreF+ " con dirección " +this.direccionF;
+        return this.nombreF;
     }
 }

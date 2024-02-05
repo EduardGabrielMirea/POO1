@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d87942d-e9a5-407e-b845-6d641e4c2b22" name="Changes" comment="POO update">
-      <change afterPath="$PROJECT_DIR$/src/universidad/Adscrito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/universidad/AreaConex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/universidad/Catedra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/universidad/Departamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/universidad/Facultad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/universidad/Profe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/universidad/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/universidad/Adscrito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/universidad/Adscrito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/universidad/AreaConex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/universidad/AreaConex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/universidad/Catedra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/universidad/Catedra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/universidad/Departamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/universidad/Departamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/universidad/Facultad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/universidad/Facultad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/universidad/Profe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/universidad/Profe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainBanco">
+  <component name="RunManager" selected="Application.main">
     <configuration name="MainAire" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aire.MainAire" />
       <module name="POO" />
@@ -81,8 +82,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="universidad.main" />
+      <module name="POO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="universidad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.MainBanco" />
         <item itemvalue="Application.MainAire" />
         <item itemvalue="Application.MainOrdenadores" />
@@ -139,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706778032601</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="POO update">
+      <option name="closed" value="true" />
+      <created>1706780588110</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706780588110</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,5 +180,16 @@
     <MESSAGE value="POO" />
     <MESSAGE value="POO update" />
     <option name="LAST_COMMIT_MESSAGE" value="POO update" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/universidad/main.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -9,12 +9,14 @@ public class Profe {
     private String nombreP;
     private Departamento departamento;
     private Set<Catedra> catedras;
+    private Set<Adscrito> adscritos;
 
-    public Profe(String dni, String nombreP, Departamento departamento, Set<Catedra> catedras) {
+    public Profe(String dni, String nombreP, Departamento departamento) {
         this.dni = dni;
         this.nombreP = nombreP;
         this.departamento = departamento;
         this.catedras = new HashSet<>();
+        this.adscritos = new HashSet<>();
     }
 
     public String getDni() {
@@ -49,8 +51,21 @@ public class Profe {
         this.catedras = catedras;
     }
 
-    //--------- ADD ------------//
+    public Set<Adscrito> getAdscritos() {
+        return adscritos;
+    }
 
+    public void setAdscritos(Set<Adscrito> adscritos) {
+        this.adscritos = adscritos;
+    }
+
+    //--------- ADD ------------//
+    public void addAdscrito(Adscrito adscrito){
+        this.adscritos.add(adscrito);
+    }
+    public void addCatedras(Catedra catedra){
+        this.catedras.add(catedra);
+    }
 
 
     @Override

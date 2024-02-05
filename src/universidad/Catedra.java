@@ -8,14 +8,16 @@ public class Catedra {
     private Departamento departamento;
     private Facultad facultad;
     private Set<Profe> profes;
+    private Set<Adscrito> adscritos;
 
 
 
-    public Catedra(String nombreC, Departamento departamento, Facultad facultad, Set<Profe> profes) {
+    public Catedra(String nombreC, Departamento departamento, Facultad facultad) {
         this.nombreC = nombreC;
         this.departamento = departamento;
         this.facultad = facultad;
         this.profes = new HashSet<>();
+        this.adscritos = new HashSet<>();
     }
 
     public String getNombreC() {
@@ -49,14 +51,26 @@ public class Catedra {
     public void setProfes(Set<Profe> profes) {
         this.profes = profes;
     }
+
+    public Set<Adscrito> getAdscritos() {
+        return adscritos;
+    }
+
+    public void setAdscritos(Set<Adscrito> adscritos) {
+        this.adscritos = adscritos;
+    }
+
     //---------- ADD --------------//
     public void addProfe(Profe profe){
         this.profes.add(profe);
     }
+    public void addAdscrito(Adscrito adscrito){
+        this.adscritos.add(adscrito);
+    }
 
     @Override
     public String toString(){
-    return "La catedra con nombre " +this.nombreC;
+    return this.nombreC;
     }
 
 

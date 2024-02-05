@@ -9,7 +9,7 @@ public class AreaConex {
     private Set<Departamento> departamentos;
 
 
-    public AreaConex(String nombreA, Set<Departamento> departamentos) {
+    public AreaConex(String nombreA) {
         this.nombreA = nombreA;
         this.departamentos = new HashSet<>();
     }
@@ -37,7 +37,7 @@ public class AreaConex {
 
     @Override
     public String toString(){
-        return "El area de conocimiento " +this.nombreA;
+        return this.nombreA;
     }
 
 }

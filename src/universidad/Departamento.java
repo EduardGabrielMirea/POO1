@@ -9,7 +9,7 @@ public class Departamento {
     private Set<Profe> profes;
 
 
-    public Departamento(String nombreD, Set<Catedra> catedras, Set<Profe> profes) {
+    public Departamento(String nombreD) {
         this.nombreD = nombreD;
         this.catedras = new HashSet<>();
         this.profes = new HashSet<>();
@@ -50,7 +50,7 @@ public class Departamento {
 
     @Override
     public String toString(){
-        return "El departamento " +this.nombreD;
+        return this.nombreD;
     }
 
 }
