@@ -61,6 +61,6 @@ public class Lector {
     //String.
     @Override
     public String toString(){
-        return this.nombre + " con DNI" + this.dni;
+        return this.nombre + " con DNI: " + this.dni;
     }
 }

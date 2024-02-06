@@ -43,6 +43,9 @@ public class Main {
         //----------- HISTORICO ---------------//
         Historico oo = new Historico("01/01/2000","01/02/2000",primeroVengadores,eddy);
         Historico o1 = new Historico("06/05/2000","10/10/2000",primeroVengadores,brian);
+        Historico o2 = new Historico("10/10/2010",segundoVengadores,adrian);
+        Historico o3 = new Historico("06/05/2020","10/10/2020",primeroAlmas,adrian);
+        Historico o4 = new Historico("15/11/2050",primeroAlmas,brian);
 
         //------------ADDS----------//
         //--------libros---------//
@@ -85,9 +88,15 @@ public class Main {
         //------ ejemplares --------//
         primeroVengadores.addHistorico(oo);
         primeroVengadores.addHistorico(o1);
+        segundoVengadores.addHistorico(o2);
+        primeroAlmas.addHistorico(o3);
+        primeroAlmas.addHistorico(o4);
 
         //------------------- PROBANDO PROGRAMA ------------//
+        imprimir(bang);
+        imprimir(jabali);
 
+        /*
         System.out.println("El autor: " +juan);
         for (Libro l: juan.getLibros()){
             System.out.println("\tLibros del autor: " +l);
@@ -97,12 +106,35 @@ public class Main {
                 System.out.println("\t\tEl ejemplar: " +e);
                 for (Historico h : e.getHistoricos()){
                     System.out.println("\t\tLector: "+h.getLector());
-                    System.out.println("\t\tCon historico: " +h);
                     System.out.println("\t\tFecha inicio: " +h.getDataP());
                     System.out.println("\t\tFecha final: " +h.getDataF());
+                    System.out.println("\t\tCon historico: " +h);
                 }
             }
         }
 
+         */
+
     }
+
+    private static void imprimir(Editorial editorial) {
+        System.out.println("La editorial : " +editorial);
+        for (Libro l : editorial.getLibros()){
+            System.out.println("\tLos libros : " +l);
+            System.out.println("\t\tTemas : " +l.getTema());
+            for (Autor a : l.getAutors()){
+                System.out.println("\t\t\tAutores : " +a);
+            }
+            for (Ejemplar e : l.getEjemplars()){
+                System.out.println("\t\t\t\tEl ejemplar numero : " +e);
+                //System.out.println("\t\t\t\t\tEl lector: " +e.getLector());
+                for (Historico h : e.getHistoricos()){
+                    System.out.println("\t\t\t\t\tEl lector: " +h.getLector());
+                    System.out.println("\t\t\t\t\t\tLa fecha de inicio: " +h.getDataP());
+                    System.out.println("\t\t\t\t\t\tLa fecha de devolucion: " +h.getDataF());
+                }
+            }
+        }
+    }
+
 }

@@ -6,11 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2d87942d-e9a5-407e-b845-6d641e4c2b22" name="Changes" comment="POO update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libreria/Ejemplar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libreria/Ejemplar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/libreria/Historico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libreria/Historico.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/libreria/Lector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libreria/Lector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/libreria/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/libreria/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/libreria/Prestec.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707128181587</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="POO update">
+      <option name="closed" value="true" />
+      <created>1707133933221</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707133933221</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,9 +212,13 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
+        <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/libreria/Main.java</url>
-          <line>90</line>
+          <line>119</line>
+          <properties class="libreria.Main" method="imprimir">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

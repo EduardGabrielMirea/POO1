@@ -12,6 +12,12 @@ public class Historico {
         this.ejemplar = ejemplar;
         this.lector = lector;
     }
+    public Historico(String dataP, Ejemplar ejemplar, Lector lector) {
+        this.dataP = dataP;
+        this.dataF = "";
+        this.ejemplar = ejemplar;
+        this.lector = lector;
+    }
 
     public String getDataP() {
         return dataP;
@@ -47,6 +53,6 @@ public class Historico {
 
     @Override
     public String toString(){
-        return this.dataP + " fecha final " +this.dataF;
+        return this.dataP + " - " +this.dataF;
     }
 }
